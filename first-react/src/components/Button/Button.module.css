@@ -1,0 +1,11 @@
+.button{
+    width: 350px;
+    height: 70px;
+    background-color:black;
+    border:10px solid  ;
+    border-color: deeppink pink hotpink lightpink;
+    color: white;
+    font-size: 30px;
+
+
+}

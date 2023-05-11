@@ -1,0 +1,16 @@
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: lightblue;
+    height: 80px;
+    border: 9px white double;
+    margin:  20px auto;
+}
+
+    .title{
+        color:midnightblue;
+        font-size: 40px;
+
+    }

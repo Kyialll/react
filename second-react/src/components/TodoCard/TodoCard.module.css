@@ -1,0 +1,93 @@
+.todoCard {
+    width: 600px;
+    height: 80px;
+    background-color: #ffff;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 4px 4px 20px rgba(185, 186, 185, 0.75);
+    padding-left: 25px;
+    padding-right: 30px;
+
+}
+.wrapperTodoCard{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.done{
+    width: 600px;
+    height: 80px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 4px 20px rgba(185, 186, 185, 0.75);
+    background-color: lightgreen;
+    padding-left: 25px;
+
+}
+.checkbox{
+    width: 30px;
+    height: 30px;
+}
+.trashIcon{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.cancel{
+    width: 80px;
+    height: 40px;
+    background-color: #a90707;
+    color: black;
+    font-size: 15px;
+    box-shadow: 0 3px #640202;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+}
+.cancel:hover{
+    background-color: darkred;
+}
+.save{
+    width: 80px;
+    height: 40px;
+    background-color: forestgreen;
+    color:white;
+    font-size: 15px;
+    box-shadow: 0 3px #014601;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+
+}
+.save:hover{
+    background-color: darkgreen;
+}
+.todoCardEnd{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+
+
+
+
+
